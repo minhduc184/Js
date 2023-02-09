@@ -244,60 +244,72 @@
 
 
                         //Btap ve nha
-// Bai 1
-// let mark = 75;
-// if (mark >= 85) {
-//     console.log("A");
-// }else if (70 <= mark && mark < 85) {
-//     console.log("B");
-// }else if (40 <= mark && mark <70) {
-//     console.log("C");
-// } else {
-//  console.log("D");
-// }
+//Bai 1
+function bai_1(mark) {
+    if (mark >= 85) {
+        console.log("A");
+    }else if (70 <= mark && mark < 85) {
+        console.log("B");
+    }else if (40 <= mark && mark <70) {
+        console.log("C");
+    } else {
+     console.log("D");
+    }
+}
+bai_1(15);
 
 // Bai 2
-// let a = 5;
-// let b = 10;
-// if (a < b) {
-//     console.log(a);
-// } else {
-//     console.log(b);
-// }
+function bai_2(a,b) {
+if (a < b) {
+    console.log(a);
+} else {
+    console.log(b);
+}
+};
+bai_2(3,4)
 
 //Bai 3
-// let a = 1;
-// if (a < 0) {
-//     console.log("a la so am ");
-// } else if (a > 0) {
-//     console.log("a la so duong");
-// } else {
-//     console.log("a la so 0");
-// }
+function bai_3(a) {
+if (a < 0) {
+    console.log("a la so am ");
+} else if (a > 0) {
+    console.log("a la so duong");
+} else {
+    console.log("a la so 0");
+}
+};
+bai_3(-5)
+
 
 //Bai 4
-// let a = 6;
-// if ( a % 2 == 0) {
-//     console.log("a la so chan");
-// } else {
-//     console.log("a la so le");
-// }
+function bai_4(a) {
 
-//Bai 5
-// let a = 5;
-// if ( a % 3 == 0 && a % 5 == 0) {
-//     console.log("a chia het cho 3 va 5");
-// } else {
-//     console.log("a khong chia het cho 3 va 5");
-// }
+if ( a % 2 == 0) {
+    console.log("a la so chan");
+} else {
+    console.log("a la so le");
+}
+};
+bai_4(5)
+
+// Bai 5
+function bai_5(a) {
+if ( a % 3 == 0 && a % 5 == 0) {
+    console.log("a chia het cho 3 va 5");
+} else {
+    console.log("a khong chia het cho 3 va 5");
+}
+};
+bai_5(15)
+
 
 //Bai 6
-// let a = 1;
-// let b = 5;
-// const tong = a + b;
-// let c = 6;
-// if (c == tong) {
-//     console.log("c co bang a + b");
-// } else {
-//     console.log("c khong bang a + b");
-// }
+function bai_6(a,b,c) {
+const tong = a + b;
+if (c == tong) {
+    console.log("c co bang a + b");
+} else {
+    console.log("c khong bang a + b");
+}
+};
+bai_6(1,4,6)
